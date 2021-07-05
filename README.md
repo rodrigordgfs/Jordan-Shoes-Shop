@@ -5,7 +5,7 @@
 ![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 ![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
-![GIF](https://media.giphy.com/media/qMF4kjvBoSMry9UpfK/giphy.gif)
+![GIF](https://media.giphy.com/media/Dhbr0K2WBGJxEIqEtU/giphy.gif)
 
 > Este projeto foi feito atravéz de um desafio do canal do discord [Codelândia](https://discord.com/invite/QevDJqCzaY)
 
