@@ -62,7 +62,7 @@ body {
   display: flex;
   flex-direction: column;
   color: #F6F6F6;
-  padding: 130px 0 0 100px;
+  padding: 8.125rem 0 0 6.25rem;
 }
 #main #main__panel #main__panel_info h1 {
   position: relative;
@@ -100,12 +100,12 @@ body {
   align-items: center;
   flex-wrap: wrap;
   list-style: none;
-  gap: 15px;
+  gap: 0.9375rem;
 }
 #main #main__content #main__content__list .main__content__list_item {
   position: relative;
-  height: 18.75rem;
-  width: 18.75rem;
+  height: 13.75rem;
+  width: 13.75rem;
   background-color: #EBE9EA;
   display: flex;
   justify-content: center;
@@ -113,8 +113,8 @@ body {
   border-radius: 0.625rem;
 }
 #main #main__content #main__content__list .main__content__list_item img {
-  height: 150px;
-  width: 250px;
+  height: 6.25rem;
+  width: 12.5rem;
   display: block;
 }
 #main #main__content #main__content__list .main__content__list_item .main__content__list_item__overlay {
@@ -132,7 +132,7 @@ body {
 }
 #main #main__content #main__content__list .main__content__list_item .main__content__list_item__overlay .main__content__list_item__text {
   color: white;
-  font-size: 20px;
+  font-size: 1.25rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -143,6 +143,7 @@ body {
 }
 #main #main__content #main__content__list .main__content__list_item:hover .main__content__list_item__overlay {
   opacity: 1;
+  cursor: pointer;
 }
 
 #footer {
