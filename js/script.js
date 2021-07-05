@@ -20,3 +20,12 @@ window.addEventListener("scroll", () => {
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
   });
   
+  // Scrool Reveal Effect
+  const sr = ScrollReveal({
+    origin: 'top',
+    distance: '50px',
+    duration: 2000,
+    reset: true
+});
+
+ScrollReveal().reveal('.main__content__list_item', { delay: 200 });  
