@@ -1,2 +1,129 @@
 // sass --watch style/sass/style.sass:style/css/style.css
 @use 'base'
+
+body
+    font-family: base.$montserrat
+
+#header
+    #header__discount_panel
+        background-color: base.$black
+        p
+            font-weight: 500
+            color: base.$white
+            padding: 0.9375rem 0
+            text-align: center
+    #header__brand
+        background-color: base.$white
+        p
+            font-weight: 600
+            color: base.$black
+            text-align: center
+            padding: 0.9375rem 0
+            font-size: 1.5rem
+        
+#main
+    #main__panel
+        height: 23.75rem
+        #main__panel_imagem
+            background: url("../../assets/images/wallpaper.jpeg")
+            background-repeat: no-repeat
+            background-size: cover
+            background-attachment: fixed
+            background-position: center
+            width: 100%
+            height: 23.75rem
+            background-position: 50% 50%
+            -webkit-filter: brightness(30%)
+            filter: brightness(30%)
+            position: absolute
+            z-index: 1
+            overflow: hidden
+        #main__panel_info
+            display: flex
+            flex-direction: column
+            color: base.$white
+            padding: 130px 0 0 100px
+            h1
+                position: relative
+                font-weight: 700
+                font-size: 2rem
+                z-index: 2
+            p
+                position: relative
+                font-weight: 500
+                z-index: 2
+                line-height: 2.125rem
+                margin-top: 1.25rem
+                max-width: 28.125rem
+    #main__highlight
+        padding-top: 3.75rem
+        #main__highlight__info
+            h2
+                font-weight: 600
+                font-size: 2rem
+                text-align: center
+            p
+                text-align: center
+                font-weight: 500
+                font-size: 1.125rem
+                margin-top: 0.625rem
+                padding: 0 0.9375rem
+    #main__content
+        #main__content__list
+            padding-top: 3.75rem
+            display: flex
+            justify-content: center
+            align-items: center
+            flex-wrap: wrap
+            list-style: none
+            gap: 15px
+            .main__content__list_item
+                position: relative
+                height: 18.75rem
+                width: 18.75rem
+                background-color: base.$card
+                display: flex
+                justify-content: center
+                align-items: center
+                border-radius: 0.625rem
+                img
+                    height: 150px
+                    width: 250px
+                    display: block
+                .main__content__list_item__overlay
+                    position: absolute
+                    top: 0
+                    bottom: 0
+                    left: 0
+                    right: 0
+                    height: 100%
+                    width: 100%
+                    opacity: 0
+                    transition: .5s ease
+                    background-color: rgba(0, 0, 0, 0.8)
+                    border-radius: 0.625rem
+                    .main__content__list_item__text
+                        color: white
+                        font-size: 20px
+                        position: absolute
+                        top: 50%
+                        left: 50%
+                        -webkit-transform: translate(-50%, -50%)
+                        -ms-transform: translate(-50%, -50%)
+                        transform: translate(-50%, -50%)
+                        text-align: center
+            .main__content__list_item:hover .main__content__list_item__overlay
+                opacity: 1
+                
+                
+
+#footer
+    background-color: base.$black
+    margin-top: 6.25rem
+    p
+        color: base.$white
+        text-align: center
+        font-weight: 500
+        font-size: 1.125rem
+        padding: 1.25rem 0.9375rem
+    
