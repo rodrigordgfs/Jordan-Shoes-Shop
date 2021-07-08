@@ -130,17 +130,57 @@ body
                 opacity: 1
                 cursor: pointer
                 
-                
-
 #footer
-    background-color: base.$black
-    margin-top: 6.25rem
-    p
-        color: base.$white
-        text-align: center
-        font-weight: 500
-        font-size: 1.125rem
-        padding: 1.25rem 0.9375rem
+    background-color: base.$black-light
+    margin-top: 100px
+    #footer__options
+        padding: 50px 0
+        max-width: 960px
+        margin: 0 auto
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        div
+            flex-basis: 33%
+        h3
+            color: base.$white
+            font-size: 18px
+            margin-bottom: 10px
+        ul
+            li
+                margin-bottom: 5px
+        #footer__options_services
+            p
+                color: base.$button-top-hover
+                font-weight: 600
+                transition: .5s ease
+                cursor: pointer
+            p:hover
+                color: base.$white-footer
+        #footer__options_about
+            p
+                color: base.$button-top-hover
+                font-weight: 600
+                transition: .5s ease
+                cursor: pointer
+            p:hover
+                color: base.$white-footer
+        #footer__options_company
+            p
+                color: base.$button-top-hover
+                font-weight: 600
+    #footer__copyright
+        background-color: base.$black
+        p
+            color: base.$white-footer
+            text-align: center
+            font-weight: 500
+            font-size: 1.125rem
+            padding: 1.25rem 0.9375rem
+
+
+// #footer
+//     
     
 #back_to_top
     display: none

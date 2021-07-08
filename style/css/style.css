@@ -147,11 +147,55 @@ body {
 }
 
 #footer {
-  background-color: #181818;
-  margin-top: 6.25rem;
+  background-color: #313131;
+  margin-top: 100px;
 }
-#footer p {
+#footer #footer__options {
+  padding: 50px 0;
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#footer #footer__options div {
+  flex-basis: 33%;
+}
+#footer #footer__options h3 {
   color: #F6F6F6;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+#footer #footer__options ul li {
+  margin-bottom: 5px;
+}
+#footer #footer__options #footer__options_services p {
+  color: #5A5A5A;
+  font-weight: 600;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+#footer #footer__options #footer__options_services p:hover {
+  color: #DADADA;
+}
+#footer #footer__options #footer__options_about p {
+  color: #5A5A5A;
+  font-weight: 600;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+#footer #footer__options #footer__options_about p:hover {
+  color: #DADADA;
+}
+#footer #footer__options #footer__options_company p {
+  color: #5A5A5A;
+  font-weight: 600;
+}
+#footer #footer__copyright {
+  background-color: #181818;
+}
+#footer #footer__copyright p {
+  color: #DADADA;
   text-align: center;
   font-weight: 500;
   font-size: 1.125rem;
